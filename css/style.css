@@ -16,6 +16,19 @@ nav {
 	right: auto;
 }
 
+/* Transitions */
+
+@keyframes fade {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+.fade {
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-name: fade;
+}
+
 /* Navigation */
 
 nav, ul {
@@ -39,6 +52,9 @@ nav {
 
 .button {
 	opacity: 0.4;
+	transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
 }
 
 a {
@@ -54,6 +70,10 @@ a {
 ul, li, a:hover {
 	opacity: 1.0;
 	color: #3b3b3b;
+	transition-property: opacity;
+    transition-duration: 0.4s;
+    transition-timing-function: linear;
+}
 }
 }
 
