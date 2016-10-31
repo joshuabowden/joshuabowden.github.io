@@ -136,6 +136,10 @@ main {
 
 /* Project Content */
 
+.spacing {
+	margin-top: 60px;
+}
+
 .p1 {
 	padding-top: 60px;
 	margin: 0;
