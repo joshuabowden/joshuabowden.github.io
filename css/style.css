@@ -38,16 +38,14 @@ nav, ul {
 }
 
 nav {
-	margin-top: 40px;
-	margin-bottom: 40px;
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
 
 .nav-bar {
 	display: inline-block;
 	font-size: 12px;
 	letter-spacing: 1px;
-	padding-top: 10px;
-	padding-bottom: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
 }
@@ -129,6 +127,15 @@ main {
 	margin: auto;
 }
 
+@media (max-width: 520px) {
+	main {
+		width: 80%;
+	}
+	.images {
+		width: 80%;
+	}
+}
+
 .titles {
 	width: 60%;
 	margin: auto;
@@ -140,16 +147,24 @@ main {
 	margin-top: 60px;
 }
 
-.p1 {
-	padding-top: 60px;
+.p1-top {
 	margin: 0;
 	text-align: center;
 	font-size: 24px;
 	letter-spacing: 2px;
 }
 
+.p1 {
+	margin: 0;
+	text-align: center;
+	font-size: 24px;
+	letter-spacing: 2px;
+	margin-top: 60px;
+}
+
 .p2 {
 	padding-top: 10px;
+	padding-bottom: 60px;
 	margin: 0;
 	text-align: center;
 	font-size: 12px;
