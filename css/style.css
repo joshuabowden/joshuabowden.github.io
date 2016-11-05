@@ -40,7 +40,7 @@ nav, ul {
 nav {
 	padding-top: 20px;
 	padding-bottom: 20px;
-	border-bottom: solid 2px #dc7b2d;
+	border-bottom: solid 3px #dc7b2d;
 	background-color: #232323;
 	margin-bottom: 2%;
 }
@@ -122,29 +122,38 @@ p {
 /* Images */
 
 .images {
-	width: 60%;
+	width: 70%;
 }
 
 .images-2 {
 	margin-top: 60px;
-	width: 60%;
+	width: 70%;
 }
 
 /* Main */
 
 main {
-	width: 60%;
+	width: 70%;
 	margin: auto;
 }
 
 /* Responsive */
 
-@media (max-width: 520px) {
+@media (max-width: 660px) {
 	main {
 		width: 80%;
 	}
 	.images {
 		width: 80%;
+	}
+}
+
+@media (min-width: 1100px) {
+	main {
+		width: 766px;
+	}
+	.images {
+		width: 766px;
 	}
 }
 
@@ -260,7 +269,7 @@ main {
 .title {
 	font-size: 24px;
 	letter-spacing: 2px;
-	margin-top: 10%;
+	margin-top: 120px;
 }
 
 .under-title {
@@ -268,7 +277,7 @@ main {
 	letter-spacing: 1px;
 	opacity: 0.4;
 	font-size: 12px;
-	margin-bottom: 10%;
+	margin-bottom: 120px;
 }
 
 .sub-title {
