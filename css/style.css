@@ -41,7 +41,7 @@ nav {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	border-bottom: ;
-	background-color: #1a1a1a;
+	background-color: ;
 	margin-bottom: ;
 }
 
@@ -61,18 +61,18 @@ nav {
 }
 
 a {
-	color: white;
+	color: #3b3b3b;
 	text-decoration: none;
 }
 
 .active {
 	opacity: 1;
-	color: white;
+	color: #3b3b3b;
 }
 
 ul, li, a:hover {
 	opacity: 1;
-	color: white;
+	color: ;
 	transition-property: opacity;
     transition-duration: 0.4s;
     transition-timing-function: linear;
@@ -83,6 +83,12 @@ ul, li, a:hover {
 p {
 	margin: 0;
 	color: #3b3b3b;
+}
+
+.line {
+	width: 100%;
+	opacity: 0.1;
+	border-bottom: solid 1px;
 }
 
 /* Thumbnails */
@@ -100,7 +106,12 @@ p {
 	filter: grayscale(100%);
 }
 
+.thumbnails {
+	vertical-align: top;
+}
+
 .thumbnail {
+	vertical-align: top;
 	float: left;
 	width: 33.33%;
 	filter: grayscale(100%);
