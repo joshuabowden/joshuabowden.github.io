@@ -407,6 +407,15 @@ main {
 	line-height: 2;
 }
 
+.p7 {
+	padding-top: 50px;
+	margin: 0;
+	font-size: 14px;
+	opacity: 0.4;
+	line-height: 2;
+}
+
+
 .p6 {
 	font-size: 13px;
 	margin: 0;
