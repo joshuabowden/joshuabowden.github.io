@@ -313,10 +313,10 @@ main {
 		width: 80%;
 	}
 	.images {
-		width: 100%;
+		width: 90%;
 	}
 	.images-2 {
-		width: 100%;
+		width: 90%;
 	}
 }
 
@@ -404,6 +404,15 @@ main {
 	margin: 0;
 	font-size: 14px;
 	letter-spacing: 1px;
+}
+
+.p3v4 {
+	text-align: center;
+	opacity: 0.2;
+	padding-top: 20px;
+	margin: 0;
+	font-size: 12px;
+	font-style: italic;
 }
 
 .p4 {
