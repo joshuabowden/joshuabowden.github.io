@@ -385,10 +385,26 @@ main {
 .p3 {
 	padding-top: 80px;
 	margin: 0;
-	font-size: 14px;
-	font-weight: bolder;
-	letter-spacing: 1px;
+	font-size: 18px;
+	letter-spacing: 2px;
 }
+
+.line-overview {
+	color: #54c2f5;
+	padding-top: 6px;
+	margin: 0;
+	width: 92px;
+	border-bottom: solid 2px;
+}
+
+.line-dev {
+	color: #54c2f5;
+	padding-top: 6px;
+	margin: 0;
+	width: 134px;
+	border-bottom: solid 2px;
+}
+
 
 .p3v2 {
 	opacity: 0.4;
@@ -419,7 +435,7 @@ main {
 	padding-top: 20px;
 	margin: 0;
 	font-size: 14px;
-	opacity: 0.4;
+	opacity: 0.6;
 	line-height: 2;
 }
 
@@ -428,7 +444,7 @@ main {
 	padding-bottom: 60px;
 	margin: 0;
 	font-size: 14px;
-	opacity: 0.4;
+	opacity: 0.6;
 	line-height: 2;
 }
 
